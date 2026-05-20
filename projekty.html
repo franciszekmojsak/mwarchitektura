@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Realizacje — Mateusz Wasielica Architektura · Białystok</title>
+  <meta name="description" content="Portfolio projektów architektonicznych: budynki mieszkalne, komercyjne, wnętrza publiczne. Realizacje Mateusza Wasielicy w Białymstoku i na Podlasiu." />
+  <link rel="canonical" href="https://mwarchitektura.vercel.app/projekty.html" />
+  <meta property="og:title" content="Realizacje — Mateusz Wasielica Architektura" />
+  <meta property="og:description" content="Portfolio ponad 80 projektów architektonicznych. Białystok i Podlaskie." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav">
+    <a href="index.html" class="nav__logo">
+      <span class="nav__logo-main">MW Architektura</span>
+      <span class="nav__logo-sub">Mateusz Wasielica · Białystok</span>
+    </a>
+    <ul class="nav__links">
+      <li><a href="o-mnie.html">O mnie</a></li>
+      <li><a href="uslugi.html">Usługi</a></li>
+      <li><a href="projekty.html">Realizacje</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+      <li><a href="kontakt.html" class="nav__cta">Omów projekt</a></li>
+    </ul>
+    <div class="nav__hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- MOBILE NAV -->
+  <div class="nav__mobile" id="mobileNav">
+    <ul class="nav__mobile-links">
+      <li><a href="o-mnie.html">O mnie</a></li>
+      <li><a href="uslugi.html">Usługi</a></li>
+      <li><a href="projekty.html">Realizacje</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+  </div>
+
+  <main class="page-content">
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+      <p class="page-hero__tag">Portfolio</p>
+      <h1 class="page-hero__title">Realizacje</h1>
+      <p class="page-hero__sub">Ponad 80 zrealizowanych projektów budowlanych w Białymstoku i na Podlasiu.</p>
+    </section>
+
+    <!-- FILTER -->
+    <section class="portfolio-filter-section">
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">Wszystkie</button>
+        <button class="filter-btn" data-filter="mieszkalny">Mieszkalne</button>
+        <button class="filter-btn" data-filter="komercyjny">Komercyjne</button>
+        <button class="filter-btn" data-filter="wnetrze">Wnętrza</button>
+        <button class="filter-btn" data-filter="koncepcja">Koncepcje</button>
+      </div>
+
+      <!-- PROJECTS GRID -->
+      <div class="projects-grid">
+
+        <div class="project-tile" data-cat="komercyjny">
+          <img class="project-tile__img" src="2026-03-10%20(1).webp" alt="Budynek biurowo-usługowy — Białystok" loading="lazy" />
+          <div class="project-tile__overlay"></div>
+          <div class="project-tile__info">
+            <p class="project-tile__cat">Komercyjny · BIM</p>
+            <h3 class="project-tile__title">Budynek biurowo-usługowy</h3>
+            <p class="project-tile__year">2024</p>
+          </div>
+        </div>
+
+        <div class="project-tile" data-cat="mieszkalny">
+          <img class="project-tile__img" src="2026-03-14.webp" alt="Dom jednorodzinny nowoczesny — projekt Białystok" loading="lazy" />
+          <div class="project-tile__overlay"></div>
+          <div class="project-tile__info">
+            <p class="project-tile__cat">Mieszkalny</p>
+            <h3 class="project-tile__title">Dom jednorodzinny — nowoczesny</h3>
+            <p class="project-tile__year">2024</p>
+          </div>
+        </div>
+
+        <div class="project-tile" data-cat="wnetrze">
+          <img class="project-tile__img" src="2026-03-10%20(2).webp" alt="Atrium przestrzeń wspólna — projekt wnętrz" loading="lazy" />
+          <div class="project-tile__overlay"></div>
+          <div class="project-tile__info">
+            <p class="project-tile__cat">Wnętrze publiczne</p>
+            <h3 class="project-tile__title">Atrium — przestrzeń wspólna</h3>
+            <p class="project-tile__year">2023</p>
+          </div>
+        </div>
+
+        <div class="project-tile" data-cat="komercyjny">
+          <img class="project-tile__img" src="2026-03-11%20(1).webp" alt="Obiekt komercyjny — wizualizacja 3D" loading="lazy" />
+          <div class="project-tile__overlay"></div>
+          <div class="project-tile__info">
+            <p class="project-tile__cat">Komercyjny · Wizualizacja</p>
+            <h3 class="project-tile__title">Centrum handlowo-usługowe</h3>
+            <p class="project-tile__year">2023</p>
+          </div>
+        </div>
+
+        <div class="project-tile" data-cat="mieszkalny">
+          <img class="project-tile__img" src="2026-03-11%20(2).webp" alt="Budynek wielorodzinny — projekt Białystok" loading="lazy" />
+          <div class="project-tile__overlay"></div>
+          <div class="project-tile__info">
+            <p class="project-tile__cat">Mieszkalny wielorodzinny</p>
+            <h3 class="project-tile__title">Budynek wielorodzinny — 12 lokali</h3>
+            <p class="project-tile__year">2022</p>
+          </div>
+        </div>
+
+        <div class="project-tile" data-cat="koncepcja">
+          <img class="project-tile__img" src="2026-03-13%20(1).webp" alt="Koncepcja renowacji — projekt przebudowy" loading="lazy" />
+          <div class="project-tile__overlay"></div>
+          <div class="project-tile__info">
+            <p class="project-tile__cat">Renowacja · Koncepcja</p>
+            <h3 class="project-tile__title">Renowacja kamienicy — centrum miasta</h3>
+            <p class="project-tile__year">2022</p>
+          </div>
+        </div>
+
+        <div class="project-tile" data-cat="wnetrze">
+          <img class="project-tile__img" src="2026-03-13%20(2).webp" alt="Wnętrze biurowe — projekt aranżacji" loading="lazy" />
+          <div class="project-tile__overlay"></div>
+          <div class="project-tile__info">
+            <p class="project-tile__cat">Wnętrze · Biuro</p>
+            <h3 class="project-tile__title">Aranżacja przestrzeni biurowej</h3>
+            <p class="project-tile__year">2021</p>
+          </div>
+        </div>
+
+        <div class="project-tile" data-cat="mieszkalny">
+          <img class="project-tile__img" src="2026-03-08.webp" alt="Dom jednorodzinny z garażem — projekt architektoniczny" loading="lazy" />
+          <div class="project-tile__overlay"></div>
+          <div class="project-tile__info">
+            <p class="project-tile__cat">Mieszkalny</p>
+            <h3 class="project-tile__title">Dom parterowy z poddaszem</h3>
+            <p class="project-tile__year">2021</p>
+          </div>
+        </div>
+
+        <div class="project-tile" data-cat="koncepcja">
+          <img class="project-tile__img" src="2026-03-10%20(1).webp" alt="Koncepcja urbanistyczna — analiza działki" loading="lazy" />
+          <div class="project-tile__overlay"></div>
+          <div class="project-tile__info">
+            <p class="project-tile__cat">Koncepcja · Analiza chłonności</p>
+            <h3 class="project-tile__title">Analiza chłonności — działka pod inwestycję</h3>
+            <p class="project-tile__year">2020</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="projects-cta">
+        <p>To tylko wybrane realizacje — łącznie zrealizowałem ponad 80 projektów.</p>
+        <a href="kontakt.html" class="btn btn--black">Omów swój projekt →</a>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-banner">
+      <div class="cta-banner__content">
+        <h2 class="cta-banner__title">Masz podobny projekt?</h2>
+        <p class="cta-banner__sub">Chętnie opowiem o doświadczeniu w danej typologii i przygotowuję bezpłatną wstępną wycenę.</p>
+        <a href="kontakt.html" class="btn btn--white">Skontaktuj się →</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <p class="footer__brand-name">MW Architektura</p>
+        <p class="footer__brand-tagline">Mateusz Wasielica · Architekt · Białystok</p>
+        <div class="footer__contact-info">
+          <span>ul. Kwiatowa 7, 15-242 Białystok</span>
+          <a href="mailto:biuro@mwarchitektura.pl">biuro@mwarchitektura.pl</a>
+          <a href="tel:+48542336208">+48 542 336 208</a>
+          <span>NIP: 5423362084</span>
+        </div>
+      </div>
+      <div>
+        <p class="footer__col-title">Strony</p>
+        <ul class="footer__nav-list">
+          <li><a href="o-mnie.html">O mnie</a></li>
+          <li><a href="uslugi.html">Usługi</a></li>
+          <li><a href="projekty.html">Realizacje</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__col-title">Usługi</p>
+        <ul class="footer__nav-list">
+          <li><a href="uslugi.html">Projektowanie</a></li>
+          <li><a href="uslugi.html">Pozwolenia</a></li>
+          <li><a href="uslugi.html">Wizualizacje 3D</a></li>
+          <li><a href="uslugi.html">Konsultacje</a></li>
+          <li><a href="uslugi.html">Renowacje</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__col-title">Godziny pracy</p>
+        <p class="footer__hours">Pon – Sob<br>6:00 – 22:00</p>
+        <p class="footer__col-title" style="margin-top:24px;">Obszar działania</p>
+        <p class="footer__hours" style="font-size:13px;">Białystok i okolice<br>Woj. Podlaskie</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2025 Mateusz Wasielica Architektura</span>
+      <span>
+        <a href="polityka-prywatnosci.html">Polityka prywatności</a>
+        &nbsp;·&nbsp;NIP 5423362084
+      </span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
