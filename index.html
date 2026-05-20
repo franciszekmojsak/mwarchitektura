@@ -17,8 +17,7 @@
   <!-- NAVIGATION -->
   <nav class="nav">
     <a href="index.html" class="nav__logo">
-      <span class="nav__logo-main">MW Architektura</span>
-      <span class="nav__logo-sub">Mateusz Wasielica · Białystok</span>
+      <img src="https://raw.githubusercontent.com/franciszekmojsak/mwarchitektura/refs/heads/main/mwarchitektura_logo.jpg" alt="MW Architektura" class="nav__logo-img" />
     </a>
     <ul class="nav__links">
       <li><a href="o-mnie.html">O mnie</a></li>
@@ -48,28 +47,58 @@
 
     <!-- HERO -->
     <section class="hero" id="hero">
-      <div class="hero__bg" style="background-image: url('2026-03-11%20(2).webp');"></div>
-      <div class="hero__overlay"></div>
-      <div class="hero__content">
-        <p class="hero__tag">Biuro Architektoniczne · Białystok</p>
-        <h1 class="hero__title">Architektura,<br>która <em>służy życiu</em></h1>
-        <p class="hero__subtitle">Projektuję przestrzenie przemyślane — od pierwszego szkicu po pozwolenie na budowę.</p>
-        <div class="hero__ctas">
-          <a href="kontakt.html" class="btn btn--white">Omów projekt</a>
-          <a href="projekty.html" class="btn btn--ghost">Zobacz realizacje →</a>
-        </div>
-        <!-- Google Rating -->
-        <div class="hero__rating">
-          <div class="hero__stars">
-            <svg viewBox="0 0 20 20"><path d="M10 1l2.4 7.4H20l-6.2 4.5 2.4 7.4L10 16l-6.2 4.3 2.4-7.4L0 8.4h7.6z"/></svg>
-            <svg viewBox="0 0 20 20"><path d="M10 1l2.4 7.4H20l-6.2 4.5 2.4 7.4L10 16l-6.2 4.3 2.4-7.4L0 8.4h7.6z"/></svg>
-            <svg viewBox="0 0 20 20"><path d="M10 1l2.4 7.4H20l-6.2 4.5 2.4 7.4L10 16l-6.2 4.3 2.4-7.4L0 8.4h7.6z"/></svg>
-            <svg viewBox="0 0 20 20"><path d="M10 1l2.4 7.4H20l-6.2 4.5 2.4 7.4L10 16l-6.2 4.3 2.4-7.4L0 8.4h7.6z"/></svg>
-            <svg viewBox="0 0 20 20"><path d="M10 1l2.4 7.4H20l-6.2 4.5 2.4 7.4L10 16l-6.2 4.3 2.4-7.4L0 8.4h7.6z"/></svg>
+      <div class="hero__inner">
+
+        <!-- LEFT: Text -->
+        <div class="hero__text">
+          <p class="hero__tag">Biuro Architektoniczne · Białystok</p>
+          <h1 class="hero__title">MW<br>Architektura</h1>
+          <p class="hero__name">Mateusz Wasielica</p>
+          <p class="hero__cred">Uprawnienia bez ograniczeń · BIM Specialist</p>
+          <div class="hero__stats">
+            <div>
+              <p class="hero__stat-num">7+</p>
+              <p class="hero__stat-label">lat doświadczenia</p>
+            </div>
+            <div>
+              <p class="hero__stat-num">80+</p>
+              <p class="hero__stat-label">realizacji</p>
+            </div>
+            <div>
+              <p class="hero__stat-num">5.0</p>
+              <p class="hero__stat-label">★ Google</p>
+            </div>
           </div>
-          <span class="hero__rating-text"><strong>5.0</strong> / 14 opinii w Google</span>
-          <a href="#opinie" class="hero__rating-link">Zobacz opinie ↓</a>
+          <div class="hero__ctas">
+            <a href="kontakt.html" class="btn btn--dark">Omów projekt</a>
+            <a href="projekty.html" class="btn btn--black">Zobacz realizacje →</a>
+          </div>
+          <div class="hero__rating">
+            <div class="hero__stars">
+              <svg viewBox="0 0 20 20"><path d="M10 1l2.4 7.4H20l-6.2 4.5 2.4 7.4L10 16l-6.2 4.3 2.4-7.4L0 8.4h7.6z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M10 1l2.4 7.4H20l-6.2 4.5 2.4 7.4L10 16l-6.2 4.3 2.4-7.4L0 8.4h7.6z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M10 1l2.4 7.4H20l-6.2 4.5 2.4 7.4L10 16l-6.2 4.3 2.4-7.4L0 8.4h7.6z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M10 1l2.4 7.4H20l-6.2 4.5 2.4 7.4L10 16l-6.2 4.3 2.4-7.4L0 8.4h7.6z"/></svg>
+              <svg viewBox="0 0 20 20"><path d="M10 1l2.4 7.4H20l-6.2 4.5 2.4 7.4L10 16l-6.2 4.3 2.4-7.4L0 8.4h7.6z"/></svg>
+            </div>
+            <span class="hero__rating-text"><strong>5.0</strong> · 14 opinii w Google</span>
+            <a href="#opinie" class="hero__rating-link">Zobacz opinie ↓</a>
+          </div>
         </div>
+
+        <!-- RIGHT: Photo tiles -->
+        <div class="hero__tiles">
+          <div class="hero__tile hero__tile--tall">
+            <img src="2026-03-11%20(2).webp" alt="Projekt architektoniczny Białystok" loading="eager" />
+          </div>
+          <div class="hero__tile">
+            <img src="2026-03-14.webp" alt="Dom jednorodzinny projekt" loading="eager" />
+          </div>
+          <div class="hero__tile">
+            <img src="2026-03-10%20(2).webp" alt="Wnętrze architektoniczne" loading="eager" />
+          </div>
+        </div>
+
       </div>
     </section>
 
@@ -268,7 +297,7 @@
       <div class="contact-home__form">
         <p class="section__tag">Kontakt</p>
         <h2 class="section__title">Omówmy Twój projekt</h2>
-        <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <form class="contact-form contact-form--dark" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
           <div class="contact-form__row">
             <input type="text" name="name" placeholder="Imię i nazwisko" required />
             <input type="email" name="email" placeholder="Adres e-mail" required />
